@@ -30,13 +30,13 @@ To get started with the Fund Me Contract Project, follow these simple steps:
 3. **Compile the Contract:** Compile the smart contract using Truffle.
 
     ```
-    truffle compile
+    hardhat compile
     ```
 
 4. **Deploy the Contract:** Deploy the smart contract to your desired Ethereum network (e.g., Ganache, Rinkeby, Mainnet).
 
     ```
-    truffle migrate --network <network-name>
+    hardhat deploy --network <network-name>
     ```
 
 5. **Interact with the Contract:** Use tools like Truffle console or Web3.js to interact with the deployed contract and start fundraising!
